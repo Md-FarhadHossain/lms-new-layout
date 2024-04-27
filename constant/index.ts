@@ -16,6 +16,18 @@ export const videos = [
         id: `ZSB4StUt8ik`,
         label: "Class 4"
     },
+    {
+        id: `jdUG1tBXovw`,
+        label: "Class 5"
+    },
+    {
+        id: `8_tIaFpB5gk`,
+        label: "Class 6"
+    },
+    {
+        id: `NXUkC8swWls`,
+        label: "Class 7"
+    },
    
 ]
 
