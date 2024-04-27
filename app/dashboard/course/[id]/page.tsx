@@ -15,11 +15,11 @@ const VideoPage = ({ params }: { params: videos }) => {
 
 
   return (
-    <aside className='p-8'>
+    <aside className='p-8 h-[90vh]'>
       
       VideoPage = {id}
 
-      <iframe width="1120" height="630" src={`https://www.youtube.com/embed/${id}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+      <iframe className='h-full w-full' src={`https://www.youtube.com/embed/${id}?rel=0&color=white`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
     </aside>
   )

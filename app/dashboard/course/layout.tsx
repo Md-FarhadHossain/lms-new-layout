@@ -21,7 +21,7 @@ export default function RootLayout({
                     <div className="w-1/4">
                     <Sidebar />
                     </div>
-                    {children}
+                    <div className="w-full">{children}</div>
                 </div>
             </body>
         </html>
