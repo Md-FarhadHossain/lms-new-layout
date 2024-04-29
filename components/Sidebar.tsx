@@ -21,7 +21,7 @@ const Sidebar = () => {
                 
                
                 <Link 
-                    className={cn("ps-4 transition-all py-3 border-b block hover:bg-blue-300", isActive && "text-red-800 text-3xl bg-blue-300")}
+                    className={cn("ps-4 transition-all py-3 border-b block hover:bg-blue-300", isActive && "text-red-800 bg-blue-300")}
 
                     href={`${video.id}`}
                     >

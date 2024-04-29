@@ -17,7 +17,7 @@ export default function RootLayout({
         <html lang="en">
 
             <body>
-                <div className='flex'>
+                <div className='flex container mx-auto'>
                     <div className="w-1/4">
                     <Sidebar />
                     </div>
