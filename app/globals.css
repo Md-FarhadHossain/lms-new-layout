@@ -76,6 +76,7 @@
   }
 
   
-.ytp-youtube-button.ytp-button.yt-uix-sessionlink {
-  display: none;
+.cardLink:hover .cardTitle {
+  color: rgb(1, 142, 219);
+  transition: color .2s ease-in-out
 }
