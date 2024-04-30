@@ -310,7 +310,7 @@ export const dashboardContent = [
     {
         title: "Server-Side Tracking Course",
         thumbnail: d2,
-        href: "dashboard/server-side-traking"
+        href: "dashboard/server-side/Oy7m42bb0cI"
     },
     {
         title: "Google Tag Manager Course",
@@ -348,4 +348,23 @@ export const dashboardContent = [
         href: "dashboard/digital-product-bundle-for-resll"
     },
 ]
-    
+
+export const serverSide = [
+    {
+        id: `Oy7m42bb0cI`,
+        label: "Introduction to Facebook Ads Ecosystem"
+    },
+    {
+        id: `iluM_dwmpB0`,
+        label: "Profiles vs Pages vs Groups Differences"
+    },
+   
+    {
+        id: `CuR3NKlhcG4`,
+        label: "Facebook Ads Manager vs Business Manager"
+    },
+    {
+        id: `5LZ3BgN41Vg`,
+        label: "How to Set Up Your Facebook Ads Payment Method!"
+    },
+]

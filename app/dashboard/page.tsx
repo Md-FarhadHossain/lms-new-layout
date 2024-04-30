@@ -1,3 +1,4 @@
+import DashboardNavbar from '@/components/DashboardNav'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { dashboardContent } from '@/constant'
 import Image from 'next/image'
@@ -7,6 +8,7 @@ import React from 'react'
 const Dashboard = () => {
     return (
         <>
+        <DashboardNavbar />
             <section className='container mx-auto'>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4'>
                     {dashboardContent.map(card => <Link href={`${card.href}`} key={card.title} className='rounded-lg overflow-hidden cardLink'>

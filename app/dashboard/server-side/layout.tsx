@@ -21,7 +21,7 @@ export default function RootLayout({
                 <DashboardNavbar />
                 <div className='flex'>
                     <div className="w-1/3">
-                    <Sidebar />
+                        <Sidebar />
                     </div>
                     <div className="w-full bg-muted">{children}</div>
                 </div>
