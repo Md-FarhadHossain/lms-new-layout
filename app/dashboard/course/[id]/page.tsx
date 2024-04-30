@@ -15,18 +15,12 @@ const VideoPage = ({ params }: { params: videos }) => {
   const url = `https://www.youtube.com/embed/${id}?rel=0&color=white`
 
 
-
-
-
   return (
-    <aside className='p-8 h-[70vh]'>
-      
-      VideoPage = {id}
+    <aside className='p-8 lg:h-[70vh] md:h-[60vh] lg:shadow-none h-full shadow-lg lg:rounded-none rounded-2xl'>
 
-      <iframe className='h-full w-full rounded-xl' src={url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-<br />
 
-    
+      <iframe className='lg:h-[700px] md:h-full h-[260px] sm:h-[400px] w-full rounded-xl' src={url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+      <br />
 
     </aside>
   )

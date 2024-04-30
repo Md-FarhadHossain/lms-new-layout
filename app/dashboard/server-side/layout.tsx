@@ -19,11 +19,11 @@ export default function RootLayout({
 
             <body>
                 <DashboardNavbar />
-                <div className='flex'>
-                    <div className="w-1/3">
-                        <Sidebar />
+                <div className='lg:flex lg:flex-row md:flex md:flex-col-reverse flex flex-col-reverse'>
+                    <div className="lg:w-1/3 md:w-full w-full">
+                    <Sidebar />
                     </div>
-                    <div className="w-full bg-muted">{children}</div>
+                    <div className="w-full bg-muted sticky top-0">{children}</div>
                 </div>
             </body>
         </html>
