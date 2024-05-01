@@ -8,7 +8,7 @@ import React from 'react'
 
 const Sidebar = () => {
 
-    const pathname = usePathname()  
+    const pathname = usePathname()
 
     const server = pathname.includes("server-side")
     const courses = pathname.includes("course")
@@ -21,7 +21,7 @@ const Sidebar = () => {
     }
 
     return (
-        <aside className='border-r h-screen overflow-y-scroll pt-4 sidebar'>
+        <aside className='border-r h-screen overflow-y-scroll pt-4 sidebar pb-40'>
             {/* facebook marketing */}
             {courses ? videos.map((video, index) => {
                 const isActive = pathname.endsWith(video.id)
@@ -40,8 +40,8 @@ const Sidebar = () => {
 
                                 <p> <span className={cn("inline-flex transition-all items-center border rounded-md px-2 py-0.5 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-sky-500/10 text-sky-800 ml-auto mr-1", isActive && "bg-red-500 text-white transition-all")}>
                                     Class {index + 1}:
-                                    </span>
-                                <span>{video.label}</span>
+                                </span>
+                                    <span>{video.label}</span>
                                 </p>
 
                             </Link>
@@ -50,7 +50,7 @@ const Sidebar = () => {
                     </React.Fragment>
                 )
             }) : null}
-            
+
             {/* Server side */}
             {server ? serverSide.map((server, index) => {
                 const isActive = pathname.endsWith(server.id)
