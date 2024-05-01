@@ -20,8 +20,8 @@ export default function RootLayout({
             <body>
                 <DashboardNavbar />
 
-                <div className='lg:flex lg:flex-row md:flex md:flex-col-reverse flex flex-col-reverse'>
-                    <div className="lg:w-1/3 md:w-full w-full">
+                <div className='lg:flex w-full lg:flex-row md:flex md:flex-col-reverse flex flex-col-reverse overflow-x-hidden'>
+                    <div className="lg:w-1/2 md:w-full w-full 2xl:w-1/2">
                     <Sidebar />
                     </div>
                     <div className="w-full bg-muted sticky top-0">{children}</div>

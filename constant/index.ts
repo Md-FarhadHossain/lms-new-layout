@@ -1,3 +1,4 @@
+
 import d1 from "../public/d-1.jpg"
 import d2 from "../public/d-2.jpg"
 import d3 from "../public/d-3.jpg"
@@ -7,6 +8,10 @@ import d6 from "../public/d-6.jpg"
 import d7 from "../public/d-7.jpg"
 import d8 from "../public/d-8.jpg"
 import d9 from "../public/d-9.jpg"
+
+
+
+
 
 export const videos = [
     {
@@ -312,10 +317,16 @@ export const dashboardContent = [
         thumbnail: d2,
         href: "dashboard/server-side/Oy7m42bb0cI"
     },
+   
     {
         title: "Google Tag Manager Course",
         thumbnail: d3,
         href: "dashboard/google-tag-manager"
+    },
+    {
+        title: "Landing Page Design Course",
+        thumbnail: d4,
+        href: "dashboard/landing-page/Oy7m42bb0cI"
     },
     {
         title: "Landing Page Design Course",
