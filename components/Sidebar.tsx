@@ -35,7 +35,11 @@ const Sidebar = () => {
                             >
 
 
-                                <p> <span className='inline-flex transition-all items-center border rounded-md px-2 py-0.5 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-sky-500/10 text-sky-800 ml-auto'>Class {index + 1}:</span> <span>{video.label}</span></p>
+                                <p> <span className='inline-flex transition-all items-center border rounded-md px-2 py-0.5 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-sky-500/10 text-sky-800 ml-auto'>
+                                    Class {index + 1}:
+                                    </span>
+                                <span>{video.label}</span>
+                                </p>
 
                             </Link>
                         </div>

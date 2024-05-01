@@ -351,40 +351,72 @@ export const dashboardContent = [
 
 export const serverSide = [
     {
-        id: `Oy7m42bb0cI`,
-        label: "Introduction to Facebook Ads Ecosystem"
+        id: `8dbPD8gzQL8`,
+        label: " Introduction of Google Tag Manager How to create Google Tag Manager "
     },
     {
-        id: `iluM_dwmpB0`,
-        label: "Profiles vs Pages vs Groups Differences"
-    },
-   
-    {
-        id: `CuR3NKlhcG4`,
-        label: "Facebook Ads Manager vs Business Manager"
+        id: `E-jNGFKTt8`,
+        label: "Free WordPress Website with Free Domain & Hosting Free WordPress Website for Web Analytic"
     },
     {
-        id: `5LZ3BgN41Vg`,
-        label: "How to Set Up Your Facebook Ads Payment Method!"
+        id: `3Dy-CnWxDUc`,
+        label: "How to connect GTM to WordPress website easily How to Install Google Tag Manager on your"
     },
+    {
+        id: `jIwxTJ8aZbY`,
+        label: "Facebook Conversion API & GA4 Server Side Tagging with GTM FB CAPI with Google Tag Manag"
+    },
+    {
+        id: `RAAuoB9dZAQ`,
+        label: "Facebook Conversion API GA4 Server side Tagging Page View Setup Page view Server side"
+    },
+    {
+        id: `Or6keArE-kg`,
+        label: "Facebook Conversion API GA4 Server Side Tracking With GTM Facebook & GA4 View Item Event"
+    },
+    {
+        id: `NAZL_xwhKxk`,
+        label: "Facebook Conversion API GA4 Server Side Tracking with GTM Facebook & GA4 AddtoCart Event"
+    },
+    {
+        id: `8G7FLDVvg6M`,
+        label: "Facebook Conversion API & GA4 Server side Tagging checkout tag Setup Checkout Server side tracking"
+    },
+    {
+        id: `Ha2nWQ4SLdM`,
+        label: "Facebook Conversion API & GA4 Server side Tagging purchase tag Setup"
+    },
+    {
+        id: `w_l4D0mIgdc`,
+        label: "Set up Facebook Conversion API via Google Tag Manager with Deduplication"
+    },
+    {
+        id: `PmL0HzyOmrA`,
+        label: " Facebook Conversion API & GA4 Server side Tagging Send Data GA4 Send data GA4 debug view"
+    },
+    {
+        id: `Q9-hDpg4wMw`,
+        label: "FB & GA4 Server side Scroll Depth Event Tracking Scroll Depth Tracking with GTM and GA4"
+    },
+    {
+        id: `yquWK4PNTKo`,
+        label: "Button Click Tracking with GTM for FB CAPI & GA4 Server Side Tagging Setup Custom events"
+    },
+    {
+        id: `C2Fx0leziYc`,
+        label: "Phone number clicks tracking for Facebook CAPI & GA4 Server Side Tracking WITH Google Tag Manager"
+    },
+    {
+        id: `I-7JTVctUmg`,
+        label: "Email clicks tracking for Facebook CAPI & GA4 Server Side Tracking with Google Tag Manager"
+    },
+    
 ]
 
 export const landingPage = [
     {
-        id: `Oy7m42bb0cI`,
-        label: "Introduction to Facebook Ads Ecosystem"
+        id: `111111`,
+        label: "1111"
     },
-    {
-        id: `iluM_dwmpB0`,
-        label: "Profiles vs Pages vs Groups Differences"
-    },
-   
-    {
-        id: `CuR3NKlhcG4`,
-        label: "Facebook Ads Manager vs Business Manager"
-    },
-    {
-        id: `5LZ3BgN41Vg`,
-        label: "How to Set Up Your Facebook Ads Payment Method!"
-    },
+    
 ]
