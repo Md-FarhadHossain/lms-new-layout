@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
+
 const Sidebar = () => {
 
     const pathname = usePathname()
@@ -28,6 +29,8 @@ const Sidebar = () => {
 
                 return (
                     <React.Fragment key={video.id}>
+
+                       
 
 
                         <div onClick={handleClick} className='mx-3 my-1 rounded-md overflow-hidden'>
