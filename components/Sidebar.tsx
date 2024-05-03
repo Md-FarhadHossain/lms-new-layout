@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation'
 import React from 'react'
 
 
+
 const Sidebar = () => {
 
     const pathname = usePathname()
@@ -20,6 +21,8 @@ const Sidebar = () => {
         console.log(pathname)
         localStorage.setItem('lastVideo', pathname);
     }
+
+  
 
     return (
         <aside className='border-r h-screen overflow-y-scroll pt-4 sidebar pb-40'>

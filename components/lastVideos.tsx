@@ -1,17 +1,5 @@
 "use client"
-import React from 'react'
 
+export const lastvideoid = localStorage.getItem("lastVideo")
 
-
-const lastVideos = () => {
-
-    const getLastVideo = localStorage.getItem("lastVideo")
-    if (getLastVideo) {
-        console.log("first")
-    }
-  return (
-    <div>lastVideos</div>
-  )
-}
-
-export default lastVideos
+// console.log(lastvideoid)
